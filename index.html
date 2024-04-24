@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+
+    <div class="main-content">
+
+        <div class="left">
+
+            <div class="container1">
+                <div class="main-image">
+                    <img src="assets/images/img1.jpeg" class="big-image">
+                </div>
+                <div class="thumbnail-container">
+                    <div class="thumbnail selected"><img class="thumbnail-img" src="assets/images/img1.jpeg"></div>
+                    <div class="thumbnail"><img class="thumbnail-img" src="assets/images/img2.jpeg"></div>
+                    <div class="thumbnail"><img class="thumbnail-img" src="assets/images/img3.jpeg"></div>
+                    <div class="thumbnail"><img class="thumbnail-img" src="assets/images/img4.jpeg"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="container1">
+                <div class="box-1">
+                    <div class="marmeto">
+                        Marmeto
+                    </div>
+                    <div class="embrace-sideboard">
+                        Embrace Sideboard
+                    </div>
+                </div>
+                <div class="hr-line">
+                </div>
+                <div class="box-2">
+                    <div class="price-container">
+                        <div class="price">
+                            $12999.00
+                        </div>
+                        <span class="old-price">
+                            $19999.00
+                        </span>
+                    </div>
+                    <div class="off">
+                        35% Off
+                    </div>
+                </div>
+                <div class="hr-line">
+                </div>
+                <div class="box-3">
+                    <div class="choose-acolor">
+                        Choose a Color
+                    </div>
+                    <div class="colors">
+
+                        <div class="color-container selected" id="pink-container">
+                            <div class="color pink">
+                            </div>
+                            <img class="pink" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/64px-White_check.svg.png">
+                        </div>
+                        <div class="color-container" id="yellow-container">
+                            <div class="color yellow" >
+                            </div>
+                            <img class="yellow" style="display: none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/64px-White_check.svg.png">
+                        </div>
+                        <div class="color-container" id="blue-container">
+                            <div class="color blue">
+                            </div>
+                            <img class="blue" style="display: none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/64px-White_check.svg.png">
+                        </div>
+                        <div class="color-container" id="levender-container">
+                            <div class="color levender">
+                            </div>
+                            <img class="levender" style="display: none;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/64px-White_check.svg.png">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="hr-line">
+                </div>
+                <div class="box-4">
+                    <div class="choose-asize">
+                        Choose a Size
+                    </div>
+                    <div class="sizes">
+                        <div class="size-container">
+                            <input type="radio" name="size" class="selected" checked value="small">
+                            <span class="size-name selected">
+                                Small
+                            </span>
+                        </div>
+                        <div class="size-container">
+                            <input type="radio" name="size" value="medium"> 
+                            <span class="size-name">
+                                Medium
+                            </span>
+                        </div>
+                        <div class="size-container">
+                            <input type="radio" name="size" value="large">
+                            <span class="size-name">
+                                Large
+                            </span>
+                        </div>
+                        <div class="size-container">
+                            <input type="radio" name="size" value="extra large">
+                            <span class="size-name">
+                                Extra Large
+                            </span>
+                        </div>
+                        <div class="size-container">
+                            <input type="radio" name="size" value="XXL">
+                            <span class="size-name">
+                                XXL
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box-5">
+                    <div class="quantity-container">
+                        <div class="plus-minus" id="minus">
+                            -
+                        </div>
+                        <span class="quantity" id="displayQuantity">
+                            1
+                        </span>
+                        <div class="plus-minus" id="plus">
+                            +
+                        </div>
+                    </div>
+                    <div class="add-to-cart-container">
+                        <div style="margin-right: 10px;" >
+                            <img class="vector" src="assets/images/cart.svg" style="height: 26px; width: 26px;"/>
+                        </div>
+                        <span class="add-to-cart">
+                            Add To Cart
+                        </span>
+                    </div>
+                </div>
+                <div class="success-message" id="success-message" style="display: none;">
+                    Embrace Sideboard with Color Yellow and Size Small added to cart
+                </div>
+                <div class="hr-line">
+                </div>
+                
+                <span class="description">
+                    The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection
+                    and
+                    look great, this storage solution is both functional and attractive. It fits seamlessly into any
+                    home
+                    decor, with clean lines and a timeless look. Crafted from premium materials for a combination of
+                    style,
+                    durability, and reliability.<br />
+                    <br />
+
+                </span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
